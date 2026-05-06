@@ -1,5 +1,7 @@
-name,math,english,science
-John,80,70,90
-Mary,60,85,88
-Peter,45,50,60
-Grace,95,92,98
+name,math,english,science,pass
+John,80,70,90,1
+Mary,60,85,88,1
+Peter,45,50,60,0
+Grace,95,92,98,1
+Tom,30,40,35,0
+Anna,55,60,58,1
