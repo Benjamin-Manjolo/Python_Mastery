@@ -69,3 +69,11 @@ pred05 = predictions[0:5]
 print(pred05s.shape)
 label05s = np.argmax(pred05s,axis=1)
 print(label05s)
+
+#Save whole model
+#SavedModel ,HDF5
+model.save("nn.h5")
+model.save("neural_net")
+
+new_model = keras.models.load_model("nn.h5")
+new_model.evaluate(x_test,y_test,verbose=2)
